@@ -292,6 +292,159 @@
           "severity": "warning",
           "timestamp": "2025-07-25T14:20:00Z",
           "location": "Rest Area, Orlando FL"
+        },
+        {
+          "alert_id": "SA004",
+          "vehicle_id": "V234",
+          "driver_id": "D008",
+          "alert_type": "following_too_close",
+          "severity": "warning",
+          "timestamp": "2025-07-25T14:15:00Z",
+          "location": "Highway 27, Tampa FL"
+        },
+        {
+          "alert_id": "SA005",
+          "vehicle_id": "V567",
+          "driver_id": "D019",
+          "alert_type": "lane_departure",
+          "severity": "warning",
+          "timestamp": "2025-07-25T14:10:00Z",
+          "location": "I-75 Mile 120"
+        },
+        {
+          "alert_id": "SA006",
+          "vehicle_id": "V890",
+          "driver_id": "D027",
+          "alert_type": "harsh_acceleration",
+          "severity": "warning",
+          "timestamp": "2025-07-25T14:05:00Z",
+          "location": "Highway 41, Naples FL"
+        },
+        {
+          "alert_id": "SA007",
+          "vehicle_id": "V321",
+          "driver_id": "D006",
+          "alert_type": "crash_detected",
+          "severity": "critical",
+          "timestamp": "2025-07-25T14:00:00Z",
+          "location": "I-4 Mile 62"
+        },
+        {
+          "alert_id": "SA008",
+          "vehicle_id": "V654",
+          "driver_id": "D015",
+          "alert_type": "distracted_driving",
+          "severity": "critical",
+          "timestamp": "2025-07-25T13:55:00Z",
+          "location": "Highway 192, Kissimmee FL"
+        },
+        {
+          "alert_id": "SA009",
+          "vehicle_id": "V987",
+          "driver_id": "D022",
+          "alert_type": "idle_violation",
+          "severity": "low",
+          "timestamp": "2025-07-25T13:50:00Z",
+          "location": "Truck Stop, Jacksonville FL"
+        },
+        {
+          "alert_id": "SA010",
+          "vehicle_id": "V135",
+          "driver_id": "D003",
+          "alert_type": "geofence_breach",
+          "severity": "warning",
+          "timestamp": "2025-07-25T13:45:00Z",
+          "location": "Industrial Park, Fort Myers FL"
+        },
+        {
+          "alert_id": "SA011",
+          "vehicle_id": "V246",
+          "driver_id": "D011",
+          "alert_type": "engine_fault",
+          "severity": "critical",
+          "timestamp": "2025-07-25T13:40:00Z",
+          "location": "I-10 Mile 220"
+        },
+        {
+          "alert_id": "SA012",
+          "vehicle_id": "V357",
+          "driver_id": "D028",
+          "alert_type": "low_fuel",
+          "severity": "warning",
+          "timestamp": "2025-07-25T13:35:00Z",
+          "location": "Highway 60, Lake Wales FL"
+        },
+        {
+          "alert_id": "SA013",
+          "vehicle_id": "V468",
+          "driver_id": "D018",
+          "alert_type": "tire_pressure_low",
+          "severity": "warning",
+          "timestamp": "2025-07-25T13:30:00Z",
+          "location": "I-75 Mile 275"
+        },
+        {
+          "alert_id": "SA014",
+          "vehicle_id": "V579",
+          "driver_id": "D030",
+          "alert_type": "unauthorized_use",
+          "severity": "critical",
+          "timestamp": "2025-07-25T13:25:00Z",
+          "location": "Industrial Area, Ocala FL"
+        },
+        {
+          "alert_id": "SA015",
+          "vehicle_id": "V680",
+          "driver_id": "D007",
+          "alert_type": "excessive_idling",
+          "severity": "low",
+          "timestamp": "2025-07-25T13:20:00Z",
+          "location": "Warehouse District, Pensacola FL"
+        },
+        {
+          "alert_id": "SA016",
+          "vehicle_id": "V791",
+          "driver_id": "D024",
+          "alert_type": "maintenance_due",
+          "severity": "warning",
+          "timestamp": "2025-07-25T13:15:00Z",
+          "location": "Highway 98, Panama City FL"
+        },
+        {
+          "alert_id": "SA017",
+          "vehicle_id": "V802",
+          "driver_id": "D014",
+          "alert_type": "trailer_disconnect",
+          "severity": "critical",
+          "timestamp": "2025-07-25T13:10:00Z",
+          "location": "I-95 Mile 180"
+        },
+        {
+          "alert_id": "SA018",
+          "vehicle_id": "V913",
+          "driver_id": "D001",
+          "alert_type": "route_deviation",
+          "severity": "warning",
+          "timestamp": "2025-07-25T13:05:00Z",
+          "location": "Highway 301, Starke FL"
+        },
+        {
+          "alert_id": "SA019",
+          "vehicle_id": "V024",
+          "driver_id": "D025",
+          "alert_type": "temperature_alert",
+          "severity": "critical",
+          "timestamp": "2025-07-25T13:00:00Z",
+          "location": "I-4 Mile 120"
+        },
+        {
+          "alert_id": "SA020",
+          "vehicle_id": "V135",
+          "driver_id": "D029",
+          "alert_type": "rolling_stop",
+          "severity": "warning",
+          "timestamp": "2025-07-25T12:55:00Z",
+          "location": "Highway 19, Clearwater FL"
         }
       ],
       "alert_count": 3
@@ -325,11 +478,368 @@
           "following_distance": 1.2,
           "recommended_distance": 3.0,
           "collision_probability": 0.45
+        },
+        {
+          "incident_id": "INC003",
+          "vehicle_id": "V789",
+          "driver_id": "D012",
+          "incident_type": "lane_departure",
+          "severity": "minor",
+          "timestamp": "2025-07-18T09:45:00Z",
+          "location": "I-75 Mile 120",
+          "duration": 2.3,
+          "weather_conditions": "rainy",
+          "collision_probability": 0.18
+        },
+        {
+          "incident_id": "INC004",
+          "vehicle_id": "V234",
+          "driver_id": "D008",
+          "incident_type": "speeding",
+          "severity": "warning",
+          "timestamp": "2025-07-16T11:20:00Z",
+          "location": "Highway 27, Tampa FL",
+          "recorded_speed": 78,
+          "speed_limit": 65,
+          "collision_probability": 0.32
+        },
+        {
+          "incident_id": "INC005",
+          "vehicle_id": "V567",
+          "driver_id": "D019",
+          "incident_type": "harsh_cornering",
+          "severity": "minor",
+          "timestamp": "2025-07-14T13:50:00Z",
+          "location": "Exit 265, I-4",
+          "g_force": 0.45,
+          "weather_conditions": "clear",
+          "collision_probability": 0.15
+        },
+        {
+          "incident_id": "INC006",
+          "vehicle_id": "V890",
+          "driver_id": "D027",
+          "incident_type": "harsh_acceleration",
+          "severity": "minor",
+          "timestamp": "2025-07-12T08:25:00Z",
+          "location": "Highway 41, Naples FL",
+          "g_force": 0.38,
+          "weather_conditions": "clear",
+          "collision_probability": 0.12
+        },
+        {
+          "incident_id": "INC007",
+          "vehicle_id": "V321",
+          "driver_id": "D006",
+          "incident_type": "distracted_driving",
+          "severity": "critical",
+          "timestamp": "2025-07-10T15:15:00Z",
+          "location": "I-4 Mile 62",
+          "duration": 4.2,
+          "weather_conditions": "clear",
+          "collision_probability": 0.65
+        },
+        {
+          "incident_id": "INC008",
+          "vehicle_id": "V654",
+          "driver_id": "D015",
+          "incident_type": "harsh_braking",
+          "severity": "warning",
+          "timestamp": "2025-07-08T10:05:00Z",
+          "location": "Highway 192, Kissimmee FL",
+          "speed_before": 58,
+          "speed_after": 22,
+          "weather_conditions": "clear",
+          "collision_probability": 0.35
+        },
+        {
+          "incident_id": "INC009",
+          "vehicle_id": "V987",
+          "driver_id": "D022",
+          "incident_type": "following_too_close",
+          "severity": "warning",
+          "timestamp": "2025-07-06T17:30:00Z",
+          "location": "I-95 Mile 180",
+          "following_distance": 1.5,
+          "recommended_distance": 3.5,
+          "collision_probability": 0.39
+        },
+        {
+          "incident_id": "INC010",
+          "vehicle_id": "V135",
+          "driver_id": "D003",
+          "incident_type": "lane_departure",
+          "severity": "minor",
+          "timestamp": "2025-07-04T07:55:00Z",
+          "location": "I-75 Mile 275",
+          "duration": 1.8,
+          "weather_conditions": "foggy",
+          "collision_probability": 0.21
         }
       ],
       "time_period": "last_30_days",
       "total_incidents": 12,
       "most_common_violation": "harsh_braking"
+    },
+    {
+      "intent": "incident_analysis",
+      "incidents": [
+        {
+          "incident_id": "INC011",
+          "vehicle_id": "V123",
+          "driver_id": "D045",
+          "incident_type": "harsh_braking",
+          "severity": "minor",
+          "timestamp": "2025-07-24T10:15:00Z",
+          "location": "I-95 Mile 45",
+          "speed_before": 62,
+          "speed_after": 32,
+          "weather_conditions": "clear",
+          "collision_probability": 0.22
+        },
+        {
+          "incident_id": "INC012",
+          "vehicle_id": "V456",
+          "driver_id": "D023",
+          "incident_type": "speeding",
+          "severity": "warning",
+          "timestamp": "2025-07-23T12:30:00Z",
+          "location": "Highway 1, Miami FL",
+          "recorded_speed": 75,
+          "speed_limit": 60,
+          "collision_probability": 0.36
+        },
+        {
+          "incident_id": "INC013",
+          "vehicle_id": "V789",
+          "driver_id": "D012",
+          "incident_type": "distracted_driving",
+          "severity": "warning",
+          "timestamp": "2025-07-22T14:45:00Z",
+          "location": "I-75 Mile 120",
+          "duration": 3.1,
+          "weather_conditions": "clear",
+          "collision_probability": 0.42
+        },
+        {
+          "incident_id": "INC014",
+          "vehicle_id": "V234",
+          "driver_id": "D008",
+          "incident_type": "following_too_close",
+          "severity": "warning",
+          "timestamp": "2025-07-21T09:20:00Z",
+          "location": "Highway 27, Tampa FL",
+          "following_distance": 1.3,
+          "recommended_distance": 3.2,
+          "collision_probability": 0.44
+        },
+        {
+          "incident_id": "INC015",
+          "vehicle_id": "V567",
+          "driver_id": "D019",
+          "incident_type": "lane_departure",
+          "severity": "minor",
+          "timestamp": "2025-07-21T13:50:00Z",
+          "location": "I-75 Mile 120",
+          "duration": 1.5,
+          "weather_conditions": "clear",
+          "collision_probability": 0.17
+        },
+        {
+          "incident_id": "INC016",
+          "vehicle_id": "V890",
+          "driver_id": "D027",
+          "incident_type": "harsh_acceleration",
+          "severity": "minor",
+          "timestamp": "2025-07-20T08:25:00Z",
+          "location": "Highway 41, Naples FL",
+          "g_force": 0.35,
+          "weather_conditions": "clear",
+          "collision_probability": 0.14
+        },
+        {
+          "incident_id": "INC017",
+          "vehicle_id": "V321",
+          "driver_id": "D006",
+          "incident_type": "harsh_braking",
+          "severity": "warning",
+          "timestamp": "2025-07-19T15:15:00Z",
+          "location": "I-4 Mile 62",
+          "speed_before": 70,
+          "speed_after": 32,
+          "weather_conditions": "rainy",
+          "collision_probability": 0.38
+        },
+        {
+          "incident_id": "INC018",
+          "vehicle_id": "V654",
+          "driver_id": "D015",
+          "incident_type": "distracted_driving",
+          "severity": "critical",
+          "timestamp": "2025-07-19T10:05:00Z",
+          "location": "Highway 192, Kissimmee FL",
+          "duration": 5.2,
+          "weather_conditions": "clear",
+          "collision_probability": 0.68
+        },
+        {
+          "incident_id": "INC019",
+          "vehicle_id": "V987",
+          "driver_id": "D022",
+          "incident_type": "speeding",
+          "severity": "warning",
+          "timestamp": "2025-07-18T17:30:00Z",
+          "location": "I-95 Mile 180",
+          "recorded_speed": 82,
+          "speed_limit": 65,
+          "collision_probability": 0.41
+        },
+        {
+          "incident_id": "INC020",
+          "vehicle_id": "V135",
+          "driver_id": "D003",
+          "incident_type": "harsh_cornering",
+          "severity": "minor",
+          "timestamp": "2025-07-18T07:55:00Z",
+          "location": "Industrial Park, Fort Myers FL",
+          "g_force": 0.42,
+          "weather_conditions": "clear",
+          "collision_probability": 0.19
+        }
+      ],
+      "time_period": "last_7_days",
+      "total_incidents": 8,
+      "most_common_violation": "harsh_braking"
+    },
+    {
+      "intent": "incident_analysis",
+      "incidents": [
+        {
+          "incident_id": "INC021",
+          "vehicle_id": "V123",
+          "driver_id": "D045",
+          "incident_type": "speeding",
+          "severity": "warning",
+          "timestamp": "2025-01-15T10:15:00Z",
+          "location": "I-95 Mile 45",
+          "recorded_speed": 80,
+          "speed_limit": 65,
+          "collision_probability": 0.38
+        },
+        {
+          "incident_id": "INC022",
+          "vehicle_id": "V456",
+          "driver_id": "D023",
+          "incident_type": "harsh_braking",
+          "severity": "warning",
+          "timestamp": "2024-11-23T12:30:00Z",
+          "location": "Highway 1, Miami FL",
+          "speed_before": 68,
+          "speed_after": 30,
+          "weather_conditions": "rainy",
+          "collision_probability": 0.42
+        },
+        {
+          "incident_id": "INC023",
+          "vehicle_id": "V789",
+          "driver_id": "D012",
+          "incident_type": "distracted_driving",
+          "severity": "critical",
+          "timestamp": "2024-10-12T14:45:00Z",
+          "location": "I-75 Mile 120",
+          "duration": 6.2,
+          "weather_conditions": "clear",
+          "collision_probability": 0.72
+        },
+        {
+          "incident_id": "INC024",
+          "vehicle_id": "V234",
+          "driver_id": "D008",
+          "incident_type": "lane_departure",
+          "severity": "minor",
+          "timestamp": "2024-09-05T09:20:00Z",
+          "location": "Highway 27, Tampa FL",
+          "duration": 2.1,
+          "weather_conditions": "clear",
+          "collision_probability": 0.20
+        },
+        {
+          "incident_id": "INC025",
+          "vehicle_id": "V567",
+          "driver_id": "D019",
+          "incident_type": "following_too_close",
+          "severity": "warning",
+          "timestamp": "2024-08-21T13:50:00Z",
+          "location": "I-75 Mile 120",
+          "following_distance": 1.1,
+          "recommended_distance": 3.5,
+          "collision_probability": 0.48
+        },
+        {
+          "incident_id": "INC026",
+          "vehicle_id": "V890",
+          "driver_id": "D027",
+          "incident_type": "harsh_cornering",
+          "severity": "warning",
+          "timestamp": "2024-07-10T08:25:00Z",
+          "location": "Highway 41, Naples FL",
+          "g_force": 0.52,
+          "weather_conditions": "clear",
+          "collision_probability": 0.29
+        },
+        {
+          "incident_id": "INC027",
+          "vehicle_id": "V321",
+          "driver_id": "D006",
+          "incident_type": "harsh_acceleration",
+          "severity": "minor",
+          "timestamp": "2024-05-19T15:15:00Z",
+          "location": "I-4 Mile 62",
+          "g_force": 0.39,
+          "weather_conditions": "clear",
+          "collision_probability": 0.16
+        },
+        {
+          "incident_id": "INC028",
+          "vehicle_id": "V654",
+          "driver_id": "D015",
+          "incident_type": "speeding",
+          "severity": "critical",
+          "timestamp": "2024-04-22T10:05:00Z",
+          "location": "Highway 192, Kissimmee FL",
+          "recorded_speed": 95,
+          "speed_limit": 65,
+          "collision_probability": 0.78
+        },
+        {
+          "incident_id": "INC029",
+          "vehicle_id": "V987",
+          "driver_id": "D022",
+          "incident_type": "distracted_driving",
+          "severity": "warning",
+          "timestamp": "2024-03-18T17:30:00Z",
+          "location": "I-95 Mile 180",
+          "duration": 3.8,
+          "weather_conditions": "clear",
+          "collision_probability": 0.46
+        },
+        {
+          "incident_id": "INC030",
+          "vehicle_id": "V135",
+          "driver_id": "D003",
+          "incident_type": "harsh_braking",
+          "severity": "warning",
+          "timestamp": "2024-02-08T07:55:00Z",
+          "location": "Industrial Park, Fort Myers FL",
+          "speed_before": 42,
+          "speed_after": 10,
+          "weather_conditions": "foggy",
+          "collision_probability": 0.32
+        }
+      ],
+      "time_period": "last_year",
+      "total_incidents": 42,
+      "most_common_violation": "speeding"
     }
   ],
   "vehicle_safety_status": [
@@ -365,698 +875,340 @@
           "safety_inspection_due": "2025-07-30",
           "dash_cam_status": "offline",
           "last_safety_event": "2025-07-25T10:30:00Z"
+        },
+        {
+          "vehicle_id": "V789",
+          "vehicle_name": "Truck 789",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-05",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-20T09:45:00Z"
+        },
+        {
+          "vehicle_id": "V234",
+          "vehicle_name": "Truck 234",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "TIR002",
+              "description": "Tire pressure low - rear right",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-22",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-21T11:20:00Z"
+        },
+        {
+          "vehicle_id": "V567",
+          "vehicle_name": "Truck 567",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-10-10",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-18T13:50:00Z"
+        },
+        {
+          "vehicle_id": "V890",
+          "vehicle_name": "Truck 890",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "LGT001",
+              "description": "Headlight malfunction",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-05",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-19T08:25:00Z"
+        },
+        {
+          "vehicle_id": "V321",
+          "vehicle_name": "Truck 321",
+          "safety_system_status": "critical",
+          "active_faults": [
+            {
+              "fault_code": "ENG003",
+              "description": "Engine overheating",
+              "severity": "critical"
+            }
+          ],
+          "safety_inspection_due": "2025-07-29",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-24T15:15:00Z"
+        },
+        {
+          "vehicle_id": "V654",
+          "vehicle_name": "Truck 654",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-12",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-17T10:05:00Z"
+        },
+        {
+          "vehicle_id": "V987",
+          "vehicle_name": "Truck 987",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-30",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-16T17:30:00Z"
+        },
+        {
+          "vehicle_id": "V135",
+          "vehicle_name": "Truck 135",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "FLT001",
+              "description": "Fuel filter restriction",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-18",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-19T07:55:00Z"
+        },
+        {
+          "vehicle_id": "V246",
+          "vehicle_name": "Truck 246",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-10-05",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-15T13:40:00Z"
+        },
+        {
+          "vehicle_id": "V357",
+          "vehicle_name": "Truck 357",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "OIL001",
+              "description": "Oil pressure low",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-10",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-20T13:35:00Z"
+        },
+        {
+          "vehicle_id": "V468",
+          "vehicle_name": "Truck 468",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-20",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-14T13:30:00Z"
+        },
+        {
+          "vehicle_id": "V579",
+          "vehicle_name": "Truck 579",
+          "safety_system_status": "critical",
+          "active_faults": [
+            {
+              "fault_code": "AIR001",
+              "description": "Air brake system failure",
+              "severity": "critical"
+            }
+          ],
+          "safety_inspection_due": "2025-07-28",
+          "dash_cam_status": "offline",
+          "last_safety_event": "2025-07-25T13:25:00Z"
+        },
+        {
+          "vehicle_id": "V680",
+          "vehicle_name": "Truck 680",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-08-25",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-13T13:20:00Z"
+        },
+        {
+          "vehicle_id": "V791",
+          "vehicle_name": "Truck 791",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "TRN001",
+              "description": "Transmission fluid temperature high",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-07",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-21T13:15:00Z"
+        },
+        {
+          "vehicle_id": "V802",
+          "vehicle_name": "Truck 802",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-15",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-12T13:10:00Z"
+        },
+        {
+          "vehicle_id": "V913",
+          "vehicle_name": "Truck 913",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-10-20",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-11T13:05:00Z"
+        },
+        {
+          "vehicle_id": "V024",
+          "vehicle_name": "Truck 024",
+          "safety_system_status": "critical",
+          "active_faults": [
+            {
+              "fault_code": "EXH001",
+              "description": "Exhaust system leak",
+              "severity": "critical"
+            }
+          ],
+          "safety_inspection_due": "2025-07-26",
+          "dash_cam_status": "offline",
+          "last_safety_event": "2025-07-25T13:00:00Z"
+        },
+        {
+          "vehicle_id": "V136",
+          "vehicle_name": "Truck 136",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "CLT001",
+              "description": "Coolant level low",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-12",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-18T12:55:00Z"
+        },
+        {
+          "vehicle_id": "V247",
+          "vehicle_name": "Truck 247",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-25",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-10T11:50:00Z"
+        },
+        {
+          "vehicle_id": "V358",
+          "vehicle_name": "Truck 358",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-10-15",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-09T10:45:00Z"
+        },
+        {
+          "vehicle_id": "V469",
+          "vehicle_name": "Truck 469",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "BAT001",
+              "description": "Battery voltage low",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-08",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-17T09:40:00Z"
+        },
+        {
+          "vehicle_id": "V580",
+          "vehicle_name": "Truck 580",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-10",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-08T08:35:00Z"
+        },
+        {
+          "vehicle_id": "V691",
+          "vehicle_name": "Truck 691",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-18",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-07T07:30:00Z"
+        },
+        {
+          "vehicle_id": "V702",
+          "vehicle_name": "Truck 702",
+          "safety_system_status": "critical",
+          "active_faults": [
+            {
+              "fault_code": "STR001",
+              "description": "Power steering failure",
+              "severity": "critical"
+            }
+          ],
+          "safety_inspection_due": "2025-07-27",
+          "dash_cam_status": "offline",
+          "last_safety_event": "2025-07-24T06:25:00Z"
+        },
+        {
+          "vehicle_id": "V813",
+          "vehicle_name": "Truck 813",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "ALT001",
+              "description": "Alternator output low",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-14",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-16T05:20:00Z"
+        },
+        {
+          "vehicle_id": "V924",
+          "vehicle_name": "Truck 924",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-09-22",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-06T04:15:00Z"
+        },
+        {
+          "vehicle_id": "V035",
+          "vehicle_name": "Truck 035",
+          "safety_system_status": "operational",
+          "active_faults": [],
+          "safety_inspection_due": "2025-10-08",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-05T03:10:00Z"
+        },
+        {
+          "vehicle_id": "V146",
+          "vehicle_name": "Truck 146",
+          "safety_system_status": "warning",
+          "active_faults": [
+            {
+              "fault_code": "DEF001",
+              "description": "DEF quality poor",
+              "severity": "warning"
+            }
+          ],
+          "safety_inspection_due": "2025-08-02",
+          "dash_cam_status": "recording",
+          "last_safety_event": "2025-07-15T02:05:00Z"
         }
       ],
-      "vehicles_with_critical_alerts": 1,
+      "vehicles_with_critical_alerts": 5,
       "vehicles_with_expired_inspections": 0
     }
-  ],
-  "vehicles_utilization": [
-    {
-      "intent": "vehicle_utilization_analysis",
-      "vehicles": [
-        {
-          "vehicle_id": "V123",
-          "vehicle_name": "Truck 543",
-          "utilization_rate": 75.5,
-          "active_hours": 180.5,
-          "idle_hours": 43.5,
-          "total_miles": 2450,
-          "efficiency_score": 8.2,
-          "average_daily_mileage": 98.0,
-          "current_status": "in_transit"
-        },
-        {
-          "vehicle_id": "V456",
-          "vehicle_name": "Truck 456",
-          "utilization_rate": 45.2,
-          "active_hours": 98.0,
-          "idle_hours": 126.0,
-          "total_miles": 1200,
-          "efficiency_score": 5.8,
-          "average_daily_mileage": 48.0,
-          "current_status": "idle"
-        },
-        {
-          "vehicle_id": "V789",
-          "vehicle_name": "Truck 789",
-          "utilization_rate": 0.0,
-          "active_hours": 0.0,
-          "idle_hours": 0.0,
-          "total_miles": 0,
-          "efficiency_score": 0.0,
-          "average_daily_mileage": 0.0,
-          "current_status": "not_in_use"
-        }
-      ],
-      "fleet_average": 68.3,
-      "time_period": "current_month",
-      "lowest_utilization_vehicles": ["V789", "V456"],
-      "underutilized_threshold": 50.0
-    }
-  ],
-  "drivers_productivity": [
-    {
-      "intent": "driver_productivity_ranking",
-      "drivers": [
-        {
-          "driver_id": "D001",
-          "driver_name": "Sarah Johnson",
-          "deliveries_completed": 45,
-          "on_time_rate": 94.2,
-          "avg_delivery_time": 28.5,
-          "productivity_score": 92.1,
-          "rank": 1
-        },
-        {
-          "driver_id": "D002",
-          "driver_name": "Mike Wilson",
-          "deliveries_completed": 42,
-          "on_time_rate": 91.8,
-          "avg_delivery_time": 31.2,
-          "productivity_score": 89.4,
-          "rank": 2
-        },
-        {
-          "driver_id": "D003",
-          "driver_name": "Lisa Brown",
-          "deliveries_completed": 38,
-          "on_time_rate": 96.5,
-          "avg_delivery_time": 26.8,
-          "productivity_score": 88.7,
-          "rank": 3
-        }
-      ],
-      "time_period": "current_week",
-      "fleet_average_deliveries": 35.2,
-      "fleet_average_on_time": 88.9
-    }
-  ],
-  "route_optimization": [
-    {
-      "intent": "route_optimization_analysis",
-      "routes": [
-        {
-          "route_id": "R001",
-          "route_name": "Miami-Orlando Express",
-          "planned_duration": 270,
-          "actual_duration": 285,
-          "delay_minutes": 15,
-          "fuel_consumption": 45.2,
-          "efficiency_rating": "good",
-          "delay_causes": ["traffic_congestion", "weather"]
-        },
-        {
-          "route_id": "R002",
-          "route_name": "Tampa Bay Circuit",
-          "planned_duration": 480,
-          "actual_duration": 520,
-          "delay_minutes": 40,
-          "fuel_consumption": 78.5,
-          "efficiency_rating": "poor",
-          "delay_causes": ["construction", "vehicle_breakdown"]
-        }
-      ],
-      "most_efficient_routes": ["R001"],
-      "routes_with_delays": ["R002"],
-      "average_delay_minutes": 27.5
-    }
-  ],
-  "asset_performance": [
-    {
-      "intent": "asset_performance_analysis",
-      "assets": [
-        {
-          "asset_id": "TR001",
-          "asset_type": "trailer",
-          "utilization_rate": 85.5,
-          "availability_next_week": true,
-          "roi_percentage": 12.5,
-          "maintenance_cost_ytd": 2400.50
-        },
-        {
-          "asset_id": "EQ001",
-          "asset_type": "equipment",
-          "utilization_rate": 32.1,
-          "availability_next_week": true,
-          "roi_percentage": 4.2,
-          "maintenance_cost_ytd": 850.25
-        }
-      ],
-      "underutilized_assets": ["EQ001"],
-      "fleet_average_utilization": 68.3
-    }
-  ],
-  "maintenance_schedule": [
-    {
-      "intent": "maintenance_schedule_query",
-      "maintenance_items": [
-        {
-          "vehicle_id": "V543",
-          "vehicle_name": "Truck 543",
-          "maintenance_type": "oil_change",
-          "due_date": "2025-08-15",
-          "current_mileage": 45230,
-          "due_mileage": 45500,
-          "days_until_due": 12,
-          "priority": "medium"
-        },
-        {
-          "vehicle_id": "V456",
-          "vehicle_name": "Truck 456",
-          "maintenance_type": "brake_inspection",
-          "due_date": "2025-07-28",
-          "current_mileage": 67890,
-          "due_mileage": 68000,
-          "days_until_due": 3,
-          "priority": "high"
-        },
-        {
-          "vehicle_id": "V789",
-          "vehicle_name": "Truck 789",
-          "maintenance_type": "tire_rotation",
-          "due_date": "2025-07-20",
-          "current_mileage": 55000,
-          "due_mileage": 54500,
-          "days_until_due": -5,
-          "priority": "overdue"
-        }
-      ],
-      "total_items": 8,
-      "overdue_items": 1,
-      "high_priority_items": 2
-    }
-  ],
-  "vehicle_diagnostics": [
-    {
-      "intent": "vehicle_health_diagnostics",
-      "diagnostics": [
-        {
-          "vehicle_id": "V123",
-          "fault_code": "P0171",
-          "description": "System Too Lean (Bank 1)",
-          "severity": "warning",
-          "detected_date": "2025-07-24T10:15:00Z",
-          "recommended_action": "Check air filter and fuel system"
-        },
-        {
-          "vehicle_id": "V456",
-          "fault_code": "P0300",
-          "description": "Random Multiple Cylinder Misfire",
-          "severity": "critical",
-          "detected_date": "2025-07-25T08:30:00Z",
-          "recommended_action": "Immediate engine inspection required"
-        }
-      ],
-      "healthy_vehicles": 23,
-      "vehicles_with_issues": 5,
-      "critical_issues": 1,
-      "breakdown_risk_vehicles": ["V456"]
-    }
-  ],
-  "maintenance_costs": [
-    {
-      "intent": "maintenance_cost_analysis",
-      "cost_data": [
-        {
-          "vehicle_id": "V123",
-          "vehicle_name": "Truck 543",
-          "q3_maintenance_cost": 2450.75,
-          "most_frequent_repair": "brake_replacement",
-          "repair_frequency": 3,
-          "cost_trend": "increasing"
-        },
-        {
-          "vehicle_id": "V456",
-          "vehicle_name": "Truck 456",
-          "q3_maintenance_cost": 3200.50,
-          "most_frequent_repair": "engine_service",
-          "repair_frequency": 4,
-          "cost_trend": "stable"
-        }
-      ],
-      "highest_cost_vehicles": ["V456", "V789"],
-      "total_q3_cost": 15750.25,
-      "most_common_fleet_repair": "brake_replacement"
-    }
-  ],
-  "predictive_maintenance": [
-    {
-      "intent": "predictive_maintenance_alerts",
-      "predictions": [
-        {
-          "vehicle_id": "V123",
-          "component": "brake_pads",
-          "predicted_failure_date": "2025-09-15",
-          "confidence_level": 78,
-          "current_condition": "fair",
-          "recommended_action": "Schedule inspection within 30 days"
-        },
-        {
-          "vehicle_id": "V456",
-          "component": "transmission",
-          "predicted_failure_date": "2025-08-20",
-          "confidence_level": 85,
-          "current_condition": "poor",
-          "recommended_action": "Immediate service required"
-        }
-      ],
-      "vehicles_needing_attention": 2,
-      "performance_declining_vehicles": ["V456", "V789"]
-    }
-  ],
-  "fuel_efficiency": [
-    {
-      "intent": "fuel_efficiency_analysis",
-      "fuel_data": [
-        {
-          "vehicle_id": "V456",
-          "vehicle_name": "Truck 456",
-          "fuel_consumed": 245.6,
-          "miles_driven": 1850,
-          "mpg": 7.53,
-          "fuel_cost": 892.15,
-          "efficiency_rank": 3
-        },
-        {
-          "vehicle_id": "V123",
-          "vehicle_name": "Truck 543",
-          "fuel_consumed": 320.8,
-          "miles_driven": 2450,
-          "mpg": 7.63,
-          "fuel_cost": 1165.90,
-          "efficiency_rank": 2
-        },
-        {
-          "vehicle_id": "V789",
-          "vehicle_name": "Truck 789",
-          "fuel_consumed": 180.5,
-          "miles_driven": 1400,
-          "mpg": 7.75,
-          "fuel_cost": 655.82,
-          "efficiency_rank": 1
-        }
-      ],
-      "fleet_average_mpg": 6.8,
-      "time_period": "current_month",
-      "highest_consumption_vehicles": ["V123", "V456"],
-      "best_fuel_economy_drivers": ["D001", "D003"]
-    }
-  ],
-  "costs_analysis": [
-    {
-      "intent": "cost_analysis_query",
-      "cost_breakdown": [
-        {
-          "vehicle_id": "V789",
-          "fuel_cost": 1250.45,
-          "maintenance_cost": 340.20,
-          "total_cost": 1590.65,
-          "cost_per_mile": 0.86,
-          "miles_driven": 1850
-        },
-        {
-          "vehicle_id": "V123",
-          "fuel_cost": 1165.90,
-          "maintenance_cost": 450.75,
-          "total_cost": 1616.65,
-          "cost_per_mile": 0.66,
-          "miles_driven": 2450
-        }
-      ],
-      "fleet_total_cost": 45230.80,
-      "time_period": "current_month",
-      "highest_cost_vehicles": ["V456", "V789"],
-      "most_cost_effective_routes": ["R001"]
-    }
-  ],
-  "fuel_fraud_detection": [
-    {
-      "intent": "fuel_fraud_detection",
-      "suspicious_transactions": [
-        {
-          "transaction_id": "FT001",
-          "vehicle_id": "V456",
-          "driver_id": "D023",
-          "anomaly_type": "unusual_location",
-          "risk_score": 85,
-          "transaction_amount": 145.50,
-          "location": "Off-route fuel station",
-          "timestamp": "2025-07-24T22:30:00Z"
-        },
-        {
-          "transaction_id": "FT002",
-          "vehicle_id": "V789",
-          "driver_id": "D045",
-          "anomaly_type": "excessive_quantity",
-          "risk_score": 92,
-          "transaction_amount": 285.75,
-          "gallons": 95.2,
-          "timestamp": "2025-07-23T15:45:00Z"
-        }
-      ],
-      "total_suspicious_transactions": 2,
-      "potential_theft_incidents": 1,
-      "cards_with_unusual_activity": ["FC123", "FC456"]
-    }
-  ],
-  "budget_tracking": [
-    {
-      "intent": "budget_tracking_analysis",
-      "budget_status": [
-        {
-          "category": "fuel",
-          "budgeted_amount": 50000.00,
-          "actual_spent": 35250.75,
-          "remaining": 14749.25,
-          "variance_percentage": 29.5,
-          "status": "under_budget",
-          "projected_month_end": 47500.00
-        },
-        {
-          "category": "maintenance",
-          "budgeted_amount": 25000.00,
-          "actual_spent": 26750.50,
-          "remaining": -1750.50,
-          "variance_percentage": -7.0,
-          "status": "over_budget",
-          "projected_month_end": 28500.00
-        }
-      ],
-      "total_budget": 125000.00,
-      "total_spent": 89450.25,
-      "over_budget_categories": ["maintenance"],
-      "projected_quarterly_spend": 135750.00
-    }
-  ],
-  "devices_status": [
-    {
-      "intent": "device_status_query",
-      "devices": [
-        {
-          "device_id": "DEV123",
-          "vehicle_id": "V456",
-          "status": "online",
-          "last_communication": "2025-07-25T14:45:00Z",
-          "signal_strength": 85,
-          "battery_level": 92,
-          "firmware_version": "2.1.4"
-        },
-        {
-          "device_id": "DEV124",
-          "vehicle_id": "V123",
-          "status": "offline",
-          "last_communication": "2025-07-25T10:30:00Z",
-          "signal_strength": 0,
-          "battery_level": 15,
-          "firmware_version": "2.0.8"
-        },
-        {
-          "device_id": "DEV125",
-          "vehicle_id": "V789",
-          "status": "error",
-          "last_communication": "2025-07-25T14:20:00Z",
-          "signal_strength": 45,
-          "battery_level": 67,
-          "firmware_version": "2.1.3",
-          "error_code": "GPS_MALFUNCTION"
-        }
-      ],
-      "online_devices": 42,
-      "offline_devices": 3,
-      "error_devices": 2,
-      "total_devices": 45,
-      "devices_needing_updates": 12,
-      "low_battery_devices": ["DEV124"]
-    }
-  ],
-  "device_performance": [
-    {
-      "intent": "device_performance_analysis",
-      "performance_data": [
-        {
-          "device_id": "DEV123",
-          "connection_drops": 2,
-          "uptime_percentage": 98.5,
-          "data_accuracy": 99.2,
-          "needs_firmware_update": false
-        },
-        {
-          "device_id": "DEV124",
-          "connection_drops": 15,
-          "uptime_percentage": 85.2,
-          "data_accuracy": 92.1,
-          "needs_firmware_update": true
-        }
-      ],
-      "fleet_average_uptime": 96.3,
-      "most_problematic_devices": ["DEV124", "DEV125"]
-    }
-  ],
-  "device_inventory": [
-    {
-      "intent": "device_inventory_query",
-      "inventory": [
-        {
-          "device_model": "GPS_Tracker_Pro",
-          "in_stock": 15,
-          "on_order": 25,
-          "deployed": 45,
-          "replacement_due": 8
-        },
-        {
-          "device_model": "Dash_Cam_HD",
-          "in_stock": 8,
-          "on_order": 12,
-          "deployed": 40,
-          "replacement_due": 3
-        }
-      ],
-      "total_spare_devices": 23,
-      "devices_due_for_replacement": 11
-    }
-  ],
-  "installations_schedule": [
-    {
-      "intent": "installation_schedule_query",
-      "installations": [
-        {
-          "installation_id": "INST001",
-          "vehicle_id": "V789",
-          "device_type": "GPS_Tracker_Pro",
-          "scheduled_date": "2025-08-02",
-          "technician": "Mike Johnson",
-          "installation_type": "replacement",
-          "status": "scheduled"
-        },
-        {
-          "installation_id": "INST002",
-          "vehicle_id": "V456",
-          "device_type": "Dash_Cam_HD",
-          "scheduled_date": "2025-08-05",
-          "technician": "Sarah Wilson",
-          "installation_type": "new",
-          "status": "pending"
-        },
-        {
-          "installation_id": "INST003",
-          "vehicle_id": "V123",
-          "device_type": "OBD_Scanner",
-          "scheduled_date": "2025-07-30",
-          "technician": "Mike Johnson",
-          "installation_type": "upgrade",
-          "status": "in_progress"
-        }
-      ],
-      "total_scheduled": 12,
-      "installations_this_week": 3,
-      "pending_installations": 8
-    }
-  ],
-  "settings_configuration": [
-    {
-      "intent": "system_configuration_query",
-      "settings": [
-        {
-          "category": "alerts",
-          "setting_name": "speeding_threshold",
-          "current_value": "75 mph",
-          "default_value": "70 mph",
-          "last_modified": "2025-07-20T09:30:00Z",
-          "modified_by": "admin@zenduit.com"
-        },
-        {
-          "category": "geofences",
-          "setting_name": "terminal_radius",
-          "current_value": "500 meters",
-          "default_value": "300 meters",
-          "last_modified": "2025-07-18T14:15:00Z",
-          "modified_by": "manager@zenduit.com"
-        },
-        {
-          "category": "hos",
-          "setting_name": "daily_drive_limit",
-          "current_value": "11 hours",
-          "default_value": "11 hours",
-          "last_modified": "2025-07-01T00:00:00Z",
-          "modified_by": "system"
-        },
-        {
-          "category": "notifications",
-          "setting_name": "maintenance_reminder",
-          "current_value": "7 days",
-          "default_value": "14 days",
-          "last_modified": "2025-07-22T11:45:00Z",
-          "modified_by": "admin@zenduit.com"
-        }
-      ],
-      "total_settings": 45,
-      "modified_settings": 12,
-      "default_settings": 33
-    }
-  ],
-  "operational_settings": [
-    {
-      "intent": "operational_configuration_query",
-      "configurations": [
-        {
-          "setting_type": "hos_rules",
-          "configuration": {
-            "daily_drive_limit": 11,
-            "weekly_limit": 70,
-            "break_requirement": 30,
-            "restart_hours": 34
-          }
-        },
-        {
-          "setting_type": "reporting_schedule",
-          "configuration": {
-            "daily_reports": "06:00",
-            "weekly_reports": "monday_08:00",
-            "monthly_reports": "first_day_09:00"
-          }
-        },
-        {
-          "setting_type": "automated_workflows",
-          "configuration": {
-            "maintenance_reminders": "enabled",
-            "safety_alerts": "enabled",
-            "fuel_efficiency_reports": "enabled",
-            "cost_analysis": "weekly"
-          }
-        }
-      ],
-      "backup_frequency": "daily",
-      "data_retention_days": 2555,
-      "active_workflows": 8
-    }
-  ],
-  "users_permissions": [
-    {
-      "intent": "user_permissions_query",
-      "users": [
-        {
-          "user_id": "U001",
-          "username": "john.manager@zenduit.com",
-          "role": "fleet_manager",
-          "permissions": [
-            "view_vehicles",
-            "manage_drivers",
-            "view_reports",
-            "modify_settings"
-          ],
-          "last_login": "2025-07-25T08:15:00Z",
-          "status": "active"
-        },
-        {
-          "user_id": "U002",
-          "username": "admin@zenduit.com",
-          "role": "admin",
-          "permissions": [
-            "full_access",
-            "user_management",
-            "system_configuration",
-            "data_export"
-          ],
-          "last_login": "2025-07-25T07:30:00Z",
-          "status": "active"
-        },
-        {
-          "user_id": "U003",
-          "username": "dispatcher@zenduit.com",
-          "role": "dispatcher",
-          "permissions": [
-            "view_vehicles",
-            "assign_drivers",
-            "view_routes"
-          ],
-          "last_login": "2025-07-25T14:00:00Z",
-          "status": "active"
-        },
-        {
-          "user_id": "U004",
-          "username": "maintenance@zenduit.com",
-          "role": "maintenance_manager",
-          "permissions": [
-            "view_maintenance",
-            "schedule_service",
-            "view_diagnostics"
-          ],
-          "last_login": "2025-07-24T16:45:00Z",
-          "status": "active"
-        }
-      ],
-      "total_users": 15,
-      "admin_users": 2,
-      "active_users": 12,
-      "inactive_users": 3
-    }
-  ],
-  "customization_options": [
-    {
-      "intent": "customization_query",
-      "available_options": [
-        {
-          "category": "dashboard",
-          "options": [
-            "widget_layout",
-            "color_themes",
-            "data_refresh_intervals",
-            "default_views"
-          ]
-        },
-        {
-          "category": "reports",
-          "templates": [
-            "safety_summary",
-            "fuel_efficiency",
-            "maintenance_schedule",
-            "cost_analysis",
-            "driver_performance"
-          ]
-        },
-        {
-          "category": "integrations",
-          "available": [
-            "accounting_systems",
-            "fuel_card_providers",
-            "maintenance_vendors",
-            "customer_portals"
-          ]
-        },
-        {
-          "category": "bulk_operations",
-          "supported_settings": [
-            "alert_thresholds",
-            "user_permissions",
-            "vehicle_configurations",
-            "notification_preferences"
-          ]
-        }
-      ],
-      "custom_fields_available": true,
-      "api_access": true,
-      "white_label_options": true
-    }
-  ]
+  ]  
 }
