@@ -26,9 +26,239 @@
           "incidents": 0,
           "harsh_events": 6,
           "rank": 3
+        },
+        {
+          "driver_id": "D004",
+          "driver_name": "Sarah Johnson",
+          "safety_score": 92.1,
+          "incidents": 1,
+          "harsh_events": 8,
+          "rank": 4
+        },
+        {
+          "driver_id": "D005",
+          "driver_name": "Michael Brown",
+          "safety_score": 90.3,
+          "incidents": 2,
+          "harsh_events": 7,
+          "rank": 5
+        },
+        {
+          "driver_id": "D006",
+          "driver_name": "Lisa Wilson",
+          "safety_score": 89.7,
+          "incidents": 0,
+          "harsh_events": 9,
+          "rank": 6
+        },
+        {
+          "driver_id": "D007",
+          "driver_name": "Robert Davis",
+          "safety_score": 88.4,
+          "incidents": 1,
+          "harsh_events": 12,
+          "rank": 7
+        },
+        {
+          "driver_id": "D008",
+          "driver_name": "Jennifer Miller",
+          "safety_score": 86.9,
+          "incidents": 2,
+          "harsh_events": 11,
+          "rank": 8
+        },
+        {
+          "driver_id": "D009",
+          "driver_name": "Christopher Garcia",
+          "safety_score": 85.2,
+          "incidents": 3,
+          "harsh_events": 15,
+          "rank": 9
+        },
+        {
+          "driver_id": "D010",
+          "driver_name": "Amanda Taylor",
+          "safety_score": 83.6,
+          "incidents": 2,
+          "harsh_events": 18,
+          "rank": 10
         }
       ],
       "time_period": "last_week",
+      "total_drivers": 45
+    },
+    {
+      "intent": "driver_safety_ranking",
+      "results": [
+        {
+          "driver_id": "D011",
+          "driver_name": "Thomas Anderson",
+          "safety_score": 97.2,
+          "incidents": 1,
+          "harsh_events": 5,
+          "rank": 1
+        },
+        {
+          "driver_id": "D012",
+          "driver_name": "Emily White",
+          "safety_score": 95.8,
+          "incidents": 2,
+          "harsh_events": 8,
+          "rank": 2
+        },
+        {
+          "driver_id": "D013",
+          "driver_name": "Kevin Martinez",
+          "safety_score": 94.3,
+          "incidents": 1,
+          "harsh_events": 12,
+          "rank": 3
+        },
+        {
+          "driver_id": "D014",
+          "driver_name": "Rebecca Thompson",
+          "safety_score": 93.1,
+          "incidents": 3,
+          "harsh_events": 10,
+          "rank": 4
+        },
+        {
+          "driver_id": "D015",
+          "driver_name": "Daniel Jackson",
+          "safety_score": 91.9,
+          "incidents": 2,
+          "harsh_events": 14,
+          "rank": 5
+        },
+        {
+          "driver_id": "D016",
+          "driver_name": "Michelle Lee",
+          "safety_score": 90.4,
+          "incidents": 4,
+          "harsh_events": 16,
+          "rank": 6
+        },
+        {
+          "driver_id": "D017",
+          "driver_name": "James Clark",
+          "safety_score": 89.2,
+          "incidents": 3,
+          "harsh_events": 19,
+          "rank": 7
+        },
+        {
+          "driver_id": "D018",
+          "driver_name": "Nicole Rodriguez",
+          "safety_score": 87.8,
+          "incidents": 5,
+          "harsh_events": 22,
+          "rank": 8
+        },
+        {
+          "driver_id": "D019",
+          "driver_name": "Ryan Lewis",
+          "safety_score": 86.5,
+          "incidents": 4,
+          "harsh_events": 25,
+          "rank": 9
+        },
+        {
+          "driver_id": "D020",
+          "driver_name": "Ashley Walker",
+          "safety_score": 84.7,
+          "incidents": 6,
+          "harsh_events": 28,
+          "rank": 10
+        }
+      ],
+      "time_period": "last_month",
+      "total_drivers": 45
+    },
+    {
+      "intent": "driver_safety_ranking",
+      "results": [
+        {
+          "driver_id": "D021",
+          "driver_name": "Brandon Hall",
+          "safety_score": 96.4,
+          "incidents": 3,
+          "harsh_events": 15,
+          "rank": 1
+        },
+        {
+          "driver_id": "D022",
+          "driver_name": "Stephanie Allen",
+          "safety_score": 95.1,
+          "incidents": 4,
+          "harsh_events": 18,
+          "rank": 2
+        },
+        {
+          "driver_id": "D023",
+          "driver_name": "Gregory Young",
+          "safety_score": 93.8,
+          "incidents": 5,
+          "harsh_events": 22,
+          "rank": 3
+        },
+        {
+          "driver_id": "D024",
+          "driver_name": "Melissa King",
+          "safety_score": 92.6,
+          "incidents": 6,
+          "harsh_events": 26,
+          "rank": 4
+        },
+        {
+          "driver_id": "D025",
+          "driver_name": "Jonathan Wright",
+          "safety_score": 91.3,
+          "incidents": 7,
+          "harsh_events": 30,
+          "rank": 5
+        },
+        {
+          "driver_id": "D026",
+          "driver_name": "Amy Lopez",
+          "safety_score": 90.1,
+          "incidents": 8,
+          "harsh_events": 34,
+          "rank": 6
+        },
+        {
+          "driver_id": "D027",
+          "driver_name": "Scott Hill",
+          "safety_score": 88.9,
+          "incidents": 9,
+          "harsh_events": 38,
+          "rank": 7
+        },
+        {
+          "driver_id": "D028",
+          "driver_name": "Kimberly Green",
+          "safety_score": 87.4,
+          "incidents": 10,
+          "harsh_events": 42,
+          "rank": 8
+        },
+        {
+          "driver_id": "D029",
+          "driver_name": "Eric Adams",
+          "safety_score": 86.2,
+          "incidents": 11,
+          "harsh_events": 46,
+          "rank": 9
+        },
+        {
+          "driver_id": "D030",
+          "driver_name": "Rachel Baker",
+          "safety_score": 84.8,
+          "incidents": 12,
+          "harsh_events": 50,
+          "rank": 10
+        }
+      ],
+      "time_period": "last_year",
       "total_drivers": 45
     }
   ],
